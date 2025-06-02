@@ -28,8 +28,8 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.finvinity.app",
-      "buildNumber": "1",
+      "bundleIdentifier": "com.tahsinhgul.finvinity",
+      "buildNumber": "2",
       "infoPlist": {
         "NSCameraUsageDescription": "This app does not use the camera",
         "NSLocationWhenInUseUsageDescription": "This app does not use location services",
@@ -37,7 +37,8 @@
         "NSMicrophoneUsageDescription": "This app does not use the microphone",
         "NSContactsUsageDescription": "This app does not access your contacts",
         "NSCalendarsUsageDescription": "This app does not access your calendar",
-        "NSRemindersUsageDescription": "This app does not access your reminders"
+        "NSRemindersUsageDescription": "This app does not access your reminders",
+        "ITSAppUsesNonExemptEncryption": false
       },
       "requireFullScreen": false,
       "statusBarStyle": "default"
@@ -64,7 +65,7 @@
       "themeColor": "#7B9B4C",
       "description": "Track your investment portfolio with real-time market data"
     },
-    "sdkVersion": "53.0.0",
+    "sdkVersion": "52.0.0",
     "platforms": [
       "ios",
       "android",
@@ -75,6 +76,10 @@
         "projectId": "bee5ec63-107b-47be-8eb6-9ed393ad0ce2"
       }
     },
-    "owner": "tygben"
+    "owner": "tygben",
+    "plugins": [
+      "expo-font",
+      "expo-sqlite"
+    ]
   }
 }
