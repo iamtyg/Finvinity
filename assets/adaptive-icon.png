@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" fill="none"/>
+  <circle cx="512" cy="400" r="140" fill="#3B82F6"/>
+  <rect x="392" y="540" width="240" height="25" rx="12" fill="#3B82F6"/>
+  <rect x="442" y="585" width="140" height="18" rx="9" fill="#1F2937"/>
+  <text x="512" y="720" text-anchor="middle" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#1F2937">F</text>
+</svg>

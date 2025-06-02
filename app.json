@@ -1,0 +1,80 @@
+{
+  "expo": {
+    "name": "Finvinity",
+    "slug": "finvinity",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "description": "Personal finance portfolio tracker for stocks, crypto, currencies, gold, and mutual funds with real-time market data and analytics",
+    "keywords": [
+      "finance",
+      "portfolio",
+      "stocks",
+      "crypto",
+      "investment",
+      "tracker",
+      "finvinity"
+    ],
+    "privacy": "public",
+    "primaryColor": "#7B9B4C",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#7B9B4C"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.finvinity.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app does not use the camera",
+        "NSLocationWhenInUseUsageDescription": "This app does not use location services",
+        "NSPhotoLibraryUsageDescription": "This app does not access your photo library",
+        "NSMicrophoneUsageDescription": "This app does not use the microphone",
+        "NSContactsUsageDescription": "This app does not access your contacts",
+        "NSCalendarsUsageDescription": "This app does not access your calendar",
+        "NSRemindersUsageDescription": "This app does not access your reminders"
+      },
+      "requireFullScreen": false,
+      "statusBarStyle": "default"
+    },
+    "android": {
+      "package": "com.finvinity.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#7B9B4C"
+      },
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ],
+      "allowBackup": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "Finvinity - Portfolio Tracker",
+      "shortName": "Finvinity",
+      "lang": "en",
+      "scope": "/",
+      "themeColor": "#7B9B4C",
+      "description": "Track your investment portfolio with real-time market data"
+    },
+    "sdkVersion": "53.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "bee5ec63-107b-47be-8eb6-9ed393ad0ce2"
+      }
+    },
+    "owner": "tygben"
+  }
+}
