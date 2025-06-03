@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Finvinity</title>
+    <meta name="description" content="Get in touch with Finvinity support team. Contact us for help, feedback, or any questions about the app.">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">
+                <div class="logo">📊</div>
+                <span class="brand-name">Finvinity</span>
+            </a>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#features" class="nav-link">Features</a>
+                <a href="support.html" class="nav-link">Support</a>
+                <a href="privacy.html" class="nav-link">Privacy</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Contact Us</h1>
+            <p class="page-subtitle">We're here to help! Get in touch with our support team</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="content-wrapper">
+        <div class="container">
+            <div class="content-grid">
+                <main class="main-content">
+                    <!-- Contact Form -->
+                    <div class="content-section">
+                        <h2>Send us a Message</h2>
+                        <p>Have a question, suggestion, or need help? Fill out the form below and we'll get back to you as soon as possible.</p>
+                        
+                        <form class="contact-form" action="#" method="post">
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+                                <div>
+                                    <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Name (Optional)</label>
+                                    <input type="text" id="name" name="name" style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: var(--border-radius); font-size: 1rem;">
+                                </div>
+                                <div>
+                                    <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Email Address *</label>
+                                    <input type="email" id="email" name="email" required style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: var(--border-radius); font-size: 1rem;">
+                                </div>
+                            </div>
+                            
+                            <div style="margin-bottom: 1rem;">
+                                <label for="subject" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Subject</label>
+                                <select id="subject" name="subject" style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: var(--border-radius); font-size: 1rem;">
+                                    <option value="">Select a topic...</option>
+                                    <option value="bug-report">Bug Report</option>
+                                    <option value="feature-request">Feature Request</option>
+                                    <option value="general-support">General Support</option>
+                                    <option value="data-issue">Data/Price Issue</option>
+                                    <option value="privacy-question">Privacy Question</option>
+                                    <option value="feedback">App Feedback</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div style="margin-bottom: 1rem;">
+                                <label for="device-info" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Device Information (Optional)</label>
+                                <input type="text" id="device-info" name="device-info" placeholder="e.g., iPhone 14 Pro, iOS 17.1 / Samsung Galaxy S23, Android 14" style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: var(--border-radius); font-size: 1rem;">
+                                <small style="color: var(--text-light); font-size: 0.875rem;">Helps us provide better support for technical issues</small>
+                            </div>
+                            
+                            <div style="margin-bottom: 1.5rem;">
+                                <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Message *</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Please describe your question or issue in detail..." style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: var(--border-radius); font-size: 1rem; resize: vertical;"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary" style="padding: 1rem 2rem;">Send Message</button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="content-section">
+                        <h2>Contact Information</h2>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                            <div class="contact-info">
+                                <h3>📧 Email Support</h3>
+                                <p><strong>Email:</strong> <a href="mailto:finvinityapp@gmail.com">finvinityapp@gmail.com</a></p>
+                                <p><strong>Response Time:</strong> Within 48 hours</p>
+                                <p><strong>Best For:</strong> Technical support, bug reports, feature requests, privacy questions</p>
+                            </div>
+                            
+                            <div class="contact-info">
+                                <h3>👨‍💻 Developer</h3>
+                                <p><strong>Developer:</strong> Tahsin Yiğit Gültekin</p>
+                                <p><strong>Location:</strong> Istanbul, Turkey</p>
+                                <p><strong>Timezone:</strong> GMT+3 (Turkey Time)</p>
+                                <p><strong>Languages:</strong> English, Turkish</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Response Times -->
+                    <div class="content-section">
+                        <h2>What to Expect</h2>
+                        <div class="highlight-box">
+                            <h3>📝 Support Response Times</h3>
+                            <ul>
+                                <li><strong>General Questions:</strong> 24-48 hours</li>
+                                <li><strong>Bug Reports:</strong> 12-24 hours</li>
+                                <li><strong>Privacy Concerns:</strong> Within 24 hours</li>
+                                <li><strong>Data Issues:</strong> 24-48 hours</li>
+                                <li><strong>Feature Requests:</strong> 48-72 hours</li>
+                            </ul>
+                            <p><strong>Note:</strong> Response times may be longer during weekends and Turkish holidays.</p>
+                        </div>
+                    </div>
+
+                    <!-- Types of Support -->
+                    <div class="content-section">
+                        <h2>How We Can Help</h2>
+                        
+                        <h3>🐛 Bug Reports</h3>
+                        <p>Experiencing crashes, incorrect data, or unexpected behavior? We want to fix it! Please include:</p>
+                        <ul>
+                            <li>Device model and operating system version</li>
+                            <li>App version (found in Settings)</li>
+                            <li>Steps to reproduce the issue</li>
+                            <li>Screenshots or screen recordings if applicable</li>
+                        </ul>
+
+                        <h3>💡 Feature Requests</h3>
+                        <p>Have an idea to make Finvinity better? We love hearing from users! Tell us:</p>
+                        <ul>
+                            <li>What feature you'd like to see</li>
+                            <li>How it would improve your experience</li>
+                            <li>Any specific details about how it should work</li>
+                        </ul>
+
+                        <h3>📊 Data Issues</h3>
+                        <p>Notice incorrect prices, missing assets, or data discrepancies? Let us know:</p>
+                        <ul>
+                            <li>The specific asset (ticker symbol or name)</li>
+                            <li>What data appears incorrect</li>
+                            <li>What you expected to see</li>
+                            <li>The date/time you noticed the issue</li>
+                        </ul>
+
+                        <h3>🔒 Privacy Questions</h3>
+                        <p>Questions about how we handle your data? We're transparent about our privacy practices:</p>
+                        <ul>
+                            <li>Data collection and usage questions</li>
+                            <li>Data deletion requests</li>
+                            <li>Privacy policy clarifications</li>
+                            <li>Data export assistance</li>
+                        </ul>
+
+                        <h3>🚀 General Support</h3>
+                        <p>Need help using the app or have general questions? We're here to help with:</p>
+                        <ul>
+                            <li>How to add investments</li>
+                            <li>Understanding app features</li>
+                            <li>Account-free setup questions</li>
+                            <li>Troubleshooting performance issues</li>
+                        </ul>
+                    </div>
+
+                    <!-- Before Contacting Us -->
+                    <div class="content-section">
+                        <h2>Before You Contact Us</h2>
+                        <p>To get the fastest help, please check these resources first:</p>
+                        <ul>
+                            <li><strong><a href="support.html">Support Center</a>:</strong> Comprehensive guides and tutorials</li>
+                            <li><strong><a href="faq.html">FAQ</a>:</strong> Answers to the most common questions</li>
+                            <li><strong><a href="troubleshooting.html">Troubleshooting Guide</a>:</strong> Solutions for common issues</li>
+                            <li><strong>App Settings:</strong> Check for app updates and review settings</li>
+                        </ul>
+                        
+                        <div class="highlight-box">
+                            <h3>🔄 Quick Fixes to Try First</h3>
+                            <ol>
+                                <li>Close and restart the app</li>
+                                <li>Check your internet connection</li>
+                                <li>Make sure you have the latest app version</li>
+                                <li>Pull down to refresh data manually</li>
+                                <li>Restart your device if issues persist</li>
+                            </ol>
+                        </div>
+                    </div>
+                </main>
+
+                <!-- Sidebar -->
+                <aside class="sidebar">
+                    <h3>Quick Contact</h3>
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> <br><a href="mailto:finvinityapp@gmail.com">finvinityapp@gmail.com</a></p>
+                        <p><strong>Response:</strong> <br>Within 48 hours</p>
+                    </div>
+
+                    <h3>Helpful Links</h3>
+                    <ul>
+                        <li><a href="support.html">Support Center</a></li>
+                        <li><a href="faq.html">Frequently Asked Questions</a></li>
+                        <li><a href="troubleshooting.html">Troubleshooting</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+
+                    <h3>Common Issues</h3>
+                    <ul>
+                        <li><a href="support.html#app-crashes">App Crashes</a></li>
+                        <li><a href="support.html#data-not-updating">Data Not Updating</a></li>
+                        <li><a href="support.html#cant-find-asset">Can't Find Asset</a></li>
+                        <li><a href="support.html#wrong-prices">Wrong Prices</a></li>
+                        <li><a href="support.html#lost-data">Lost Data</a></li>
+                    </ul>
+
+                    <div class="contact-info">
+                        <h3>App Store Issues?</h3>
+                        <p>For issues with downloading or purchasing the app, contact:</p>
+                        <p><strong>iOS:</strong> <a href="https://support.apple.com" target="_blank">Apple Support</a></p>
+                        <p><strong>Android:</strong> <a href="https://support.google.com/googleplay" target="_blank">Google Play Support</a></p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <div class="logo">📊</div>
+                        <span class="brand-name">Finvinity</span>
+                    </div>
+                    <p>The most comprehensive portfolio tracking app for modern investors.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="support.html">Help Center</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="troubleshooting.html">Troubleshooting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="licenses.html">Third-Party Licenses</a></li>
+                        <li><a href="refund.html">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="release-notes.html">Release Notes</a></li>
+                        <li><a href="roadmap.html">Roadmap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Finvinity. All rights reserved.</p>
+                <p>Developed by Tahsin Yiğit Gültekin</p>
+                <p>
+                    <a href="mailto:finvinityapp@gmail.com">finvinityapp@gmail.com</a> | 
+                    Istanbul, Turkey
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html> 

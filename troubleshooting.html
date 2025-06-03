@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troubleshooting Guide - Finvinity</title>
+    <meta name="description" content="Step-by-step troubleshooting guide for Finvinity app. Solve common issues and technical problems quickly.">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">
+                <div class="logo">📊</div>
+                <span class="brand-name">Finvinity</span>
+            </a>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#features" class="nav-link">Features</a>
+                <a href="support.html" class="nav-link">Support</a>
+                <a href="privacy.html" class="nav-link">Privacy</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Troubleshooting Guide</h1>
+            <p class="page-subtitle">Step-by-step solutions to common issues</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="content-wrapper">
+        <div class="container">
+            <div class="content-grid">
+                <main class="main-content">
+                    <!-- Quick Fixes -->
+                    <div class="content-section">
+                        <h2>🔧 Quick Fixes (Try These First)</h2>
+                        <div class="highlight-box">
+                            <p>Before diving into specific issues, try these common solutions that resolve most problems:</p>
+                            <ol>
+                                <li><strong>Force close and restart</strong> the Finvinity app</li>
+                                <li><strong>Check your internet connection</strong> (prices require internet access)</li>
+                                <li><strong>Pull down to refresh</strong> on the main portfolio screen</li>
+                                <li><strong>Update the app</strong> to the latest version from your app store</li>
+                                <li><strong>Restart your device</strong> if issues persist</li>
+                            </ol>
+                            <p><strong>💡 Pro Tip:</strong> These steps resolve about 80% of reported issues!</p>
+                        </div>
+                    </div>
+
+                    <!-- App Performance Issues -->
+                    <div class="content-section">
+                        <h2>📱 App Performance Issues</h2>
+                        
+                        <h3>App Won't Open or Crashes on Startup</h3>
+                        <p><strong>Symptoms:</strong> App closes immediately, black screen, or stuck on loading screen</p>
+                        <p><strong>Solutions:</strong></p>
+                        <ol>
+                            <li><strong>Force Close App:</strong>
+                                <ul>
+                                    <li><strong>iOS:</strong> Double-tap home button (or swipe up on newer iPhones), swipe up on Finvinity</li>
+                                    <li><strong>Android:</strong> Recent apps button, swipe away Finvinity</li>
+                                </ul>
+                            </li>
+                            <li><strong>Restart Device:</strong> Power off completely, wait 10 seconds, power back on</li>
+                            <li><strong>Check Storage:</strong> Ensure at least 100MB free space on your device</li>
+                            <li><strong>Update App:</strong> Check App Store/Play Store for available updates</li>
+                            <li><strong>Reinstall App:</strong> Delete and reinstall (⚠️ This will delete all portfolio data - export first!)</li>
+                        </ol>
+
+                        <h3>App Runs Slowly or Freezes</h3>
+                        <p><strong>Symptoms:</strong> Delayed responses, UI freezing, slow navigation</p>
+                        <p><strong>Solutions:</strong></p>
+                        <ol>
+                            <li><strong>Close Other Apps:</strong> Free up RAM by closing background apps</li>
+                            <li><strong>Check Device Age:</strong> Older devices (4+ years) may experience slower performance</li>
+                            <li><strong>Clear Cache:</strong>
+                                <ul>
+                                    <li><strong>iOS:</strong> Restart the app</li>
+                                    <li><strong>Android:</strong> Settings → Apps → Finvinity → Storage → Clear Cache</li>
+                                </ul>
+                            </li>
+                            <li><strong>Reduce Portfolio Size:</strong> Large portfolios (50+ items) may slow performance</li>
+                            <li><strong>Check Internet Speed:</strong> Slow connections can affect app responsiveness</li>
+                        </ol>
+
+                        <h3>High Battery Usage</h3>
+                        <p><strong>Symptoms:</strong> Rapid battery drain when using Finvinity</p>
+                        <p><strong>Solutions:</strong></p>
+                        <ol>
+                            <li><strong>Update to Latest Version:</strong> Recent updates optimize battery usage</li>
+                            <li><strong>Close App When Not in Use:</strong> Don't leave it running in background unnecessarily</li>
+                            <li><strong>Check Background Refresh:</strong>
+                                <ul>
+                                    <li><strong>iOS:</strong> Settings → General → Background App Refresh → Finvinity (turn off)</li>
+                                    <li><strong>Android:</strong> Settings → Apps → Finvinity → Battery → Background Activity (restrict)</li>
+                                </ul>
+                            </li>
+                            <li><strong>Reduce Refresh Frequency:</strong> Manual refresh instead of frequent automatic updates</li>
+                        </ol>
+                    </div>
+
+                    <!-- Data and Price Issues -->
+                    <div class="content-section">
+                        <h2>📊 Data and Price Issues</h2>
+                        
+                        <h3>Prices Not Updating</h3>
+                        <p><strong>Symptoms:</strong> Old prices showing, "Last updated" timestamp not recent</p>
+                        <p><strong>Solutions:</strong></p>
+                        <ol>
+                            <li><strong>Manual Refresh:</strong> Pull down on portfolio screen to force update</li>
+                            <li><strong>Check Internet:</strong> Verify strong Wi-Fi or cellular connection</li>
+                            <li><strong>Verify Market Hours:</strong>
+                                <ul>
+                                    <li>Stock markets: Closed on weekends and holidays</li>
+                                    <li>Crypto markets: 24/7 but may have brief maintenance windows</li>
+                                    <li>Forex markets: Closed Friday evening to Sunday evening</li>
+                                </ul>
+                            </li>
+                            <li><strong>Check Asset Status:</strong> Some assets may be delisted or suspended</li>
+                            <li><strong>Wait and Retry:</strong> API servers may be temporarily unavailable</li>
+                        </ol>
+
+                        <h3>Wrong or Inaccurate Prices</h3>
+                        <p><strong>Symptoms:</strong> Prices that seem incorrect compared to other sources</p>
+                        <p><strong>Solutions:</strong></p>
+                        <ol>
+                            <li><strong>Verify Asset Symbol:</strong> Ensure you selected the correct ticker (e.g., AAPL vs AAPLF)</li>
+                            <li><strong>Check Exchange:</strong> Same company may trade on different exchanges with different prices</li>
+                            <li><strong>Consider Delays:</strong> Some data feeds have 15-20 minute delays</li>
+                            <li><strong>Currency Differences:</strong> Check if price is displayed in different currency</li>
+                            <li><strong>Compare Sources:</strong> Cross-reference with Yahoo Finance, Google Finance</li>
+                            <li><strong>Report Issue:</strong> If persistently wrong, contact support with details</li>
+                        </ol>
+
+                        <h3>Can't Find Specific Assets</h3>
+                        <p><strong>Symptoms:</strong> Search returns no results for your stock/crypto</p>
+                        <p><strong>Solutions:</strong></p>
+                        <ol>
+                            <li><strong>Try Different Search Terms:</strong>
+                                <ul>
+                                    <li>Ticker symbol (AAPL)</li>
+                                    <li>Full company name (Apple Inc)</li>
+                                    <li>Alternative symbols (some companies have multiple listings)</li>
+                                </ul>
+                            </li>
+                            <li><strong>Check Spelling:</strong> Verify correct spelling of ticker/company name</li>
+                            <li><strong>Verify Public Trading:</strong> Ensure the asset is publicly traded</li>
+                            <li><strong>Check Asset Type:</strong> Make sure you're searching in the right category</li>
+                            <li><strong>Try Partial Search:</strong> Search for just part of the name</li>
+                            <li><strong>Request Addition:</strong> Contact us to add missing assets</li>
+                        </ol>
+                    </div>
+
+                    <!-- Portfolio Management Issues -->
+                    <div class="content-section">
+                        <h2>💼 Portfolio Management Issues</h2>
+                        
+                        <h3>Portfolio Data Missing or Lost</h3>
+                        <p><strong>Symptoms:</strong> Empty portfolio, investments disappeared</p>
+                        <p><strong>⚠️ Prevention is Key:</strong> Regular data exports are essential since data is stored locally only</p>
+                        <p><strong>Recovery Options:</strong></p>
+                        <ol>
+                            <li><strong>Check for Backup:</strong> Look for exported CSV/JSON files</li>
+                            <li><strong>Restart App:</strong> Sometimes data appears to be missing due to loading issues</li>
+                            <li><strong>Avoid Multiple Devices:</strong> Data doesn't sync between devices</li>
+                            <li><strong>Import Previous Export:</strong> If you have backup files, use Settings → Import Data</li>
+                            <li><strong>Re-enter Manually:</strong> If no backup exists, data must be re-entered</li>
+                        </ol>
+
+                        <h3>Incorrect Calculations</h3>
+                        <p><strong>Symptoms:</strong> Wrong gains/losses, percentage calculations seem off</p>
+                        <p><strong>Solutions:</strong></p>
+                        <ol>
+                            <li><strong>Verify Purchase Data:</strong> Check quantity, price, and date are correct</li>
+                            <li><strong>Check Currency Settings:</strong> Ensure base currency is set correctly</li>
+                            <li><strong>Review Multiple Entries:</strong> Same stock bought multiple times affects averages</li>
+                            <li><strong>Consider Fees:</strong> App doesn't include brokerage fees in calculations</li>
+                            <li><strong>Refresh Current Prices:</strong> Outdated prices affect calculations</li>
+                            <li><strong>Manual Verification:</strong> Double-check math with calculator if needed</li>
+                        </ol>
+
+                        <h3>Can't Edit or Delete Investments</h3>
+                        <p><strong>Symptoms:</strong> Edit button not working, delete option missing</p>
+                        <p><strong>Solutions:</strong></p>
+                        <ol>
+                            <li><strong>Tap Investment Row:</strong> Tap directly on the investment to edit</li>
+                            <li><strong>Swipe Actions:</strong> Try swiping left on investment for delete option</li>
+                            <li><strong>Check App Update:</strong> Ensure you have latest version with all features</li>
+                            <li><strong>Restart App:</strong> UI elements may be unresponsive</li>
+                            <li><strong>Long Press:</strong> Try long-pressing investment for additional options</li>
+                        </ol>
+                    </div>
+
+                    <!-- Network and Connectivity -->
+                    <div class="content-section">
+                        <h2>🌐 Network and Connectivity Issues</h2>
+                        
+                        <h3>No Internet Connection Error</h3>
+                        <p><strong>Symptoms:</strong> "No connection" messages, data won't load</p>
+                        <p><strong>Solutions:</strong></p>
+                        <ol>
+                            <li><strong>Check Network Connection:</strong>
+                                <ul>
+                                    <li>Wi-Fi: Verify connected to working network</li>
+                                    <li>Cellular: Check signal strength and data allowance</li>
+                                </ul>
+                            </li>
+                            <li><strong>Test Other Apps:</strong> Verify internet works in browser or other apps</li>
+                            <li><strong>Reset Network Settings:</strong>
+                                <ul>
+                                    <li><strong>iOS:</strong> Settings → General → Reset → Reset Network Settings</li>
+                                    <li><strong>Android:</strong> Settings → System → Reset → Reset Network Settings</li>
+                                </ul>
+                            </li>
+                            <li><strong>Switch Networks:</strong> Try different Wi-Fi network or cellular</li>
+                            <li><strong>Firewall/VPN:</strong> Check if firewall or VPN is blocking connections</li>
+                        </ol>
+
+                        <h3>Slow Data Loading</h3>
+                        <p><strong>Symptoms:</strong> Long loading times, timeouts</p>
+                        <p><strong>Solutions:</strong></p>
+                        <ol>
+                            <li><strong>Check Internet Speed:</strong> Use speed test app to verify connection quality</li>
+                            <li><strong>Switch to Wi-Fi:</strong> Use Wi-Fi instead of cellular for faster speeds</li>
+                            <li><strong>Close Background Apps:</strong> Free up bandwidth by closing other apps</li>
+                            <li><strong>Try Later:</strong> API servers may be experiencing high traffic</li>
+                            <li><strong>Reduce Portfolio Size:</strong> Fewer assets = faster loading</li>
+                        </ol>
+                    </div>
+
+                    <!-- Device Specific Issues -->
+                    <div class="content-section">
+                        <h2>📱 Device-Specific Issues</h2>
+                        
+                        <h3>iOS-Specific Issues</h3>
+                        <h4>App Store Download Problems</h4>
+                        <ol>
+                            <li><strong>Check iOS Version:</strong> Requires iOS 13.0 or later</li>
+                            <li><strong>Storage Space:</strong> Need at least 50MB free space</li>
+                            <li><strong>Apple ID Issues:</strong> Sign out and back into App Store</li>
+                            <li><strong>Region Restrictions:</strong> App may not be available in all countries</li>
+                        </ol>
+
+                        <h4>iOS Permission Issues</h4>
+                        <ol>
+                            <li><strong>Notifications:</strong> Settings → Notifications → Finvinity</li>
+                            <li><strong>Cellular Data:</strong> Settings → Cellular → Finvinity (enable)</li>
+                            <li><strong>Background Refresh:</strong> Settings → General → Background App Refresh</li>
+                        </ol>
+
+                        <h3>Android-Specific Issues</h3>
+                        <h4>Google Play Download Problems</h4>
+                        <ol>
+                            <li><strong>Check Android Version:</strong> Requires Android 7.0 or higher</li>
+                            <li><strong>Clear Play Store Cache:</strong> Settings → Apps → Google Play Store → Storage → Clear Cache</li>
+                            <li><strong>Google Account:</strong> Ensure signed into correct Google account</li>
+                            <li><strong>Device Compatibility:</strong> Some older devices may not be compatible</li>
+                        </ol>
+
+                        <h4>Android Permission Issues</h4>
+                        <ol>
+                            <li><strong>Network Access:</strong> Settings → Apps → Finvinity → Permissions</li>
+                            <li><strong>Storage Access:</strong> Required for data export/import features</li>
+                            <li><strong>Background Activity:</strong> Settings → Apps → Finvinity → Battery → Background Activity</li>
+                        </ol>
+                    </div>
+
+                    <!-- When to Contact Support -->
+                    <div class="content-section">
+                        <h2>📞 When to Contact Support</h2>
+                        <p>Contact our support team if:</p>
+                        <ul>
+                            <li>You've tried all relevant troubleshooting steps without success</li>
+                            <li>You're experiencing a bug or issue not covered in this guide</li>
+                            <li>You need help with data recovery or import/export</li>
+                            <li>You have suggestions for improving the app</li>
+                            <li>You need clarification on app features or functionality</li>
+                        </ul>
+
+                        <div class="highlight-box">
+                            <h3>📧 How to Get Better Support</h3>
+                            <p>When contacting support, please include:</p>
+                            <ul>
+                                <li><strong>Device Model:</strong> iPhone 14 Pro, Samsung Galaxy S23, etc.</li>
+                                <li><strong>Operating System:</strong> iOS 17.1, Android 14, etc.</li>
+                                <li><strong>App Version:</strong> Found in Settings within the app</li>
+                                <li><strong>Detailed Description:</strong> What exactly happened and when</li>
+                                <li><strong>Steps to Reproduce:</strong> What you were doing when the issue occurred</li>
+                                <li><strong>Screenshots:</strong> If applicable, showing error messages or issues</li>
+                            </ul>
+                            <p><strong>Email:</strong> <a href="mailto:finvinityapp@gmail.com">finvinityapp@gmail.com</a></p>
+                            <p><strong>Response Time:</strong> Within 48 hours</p>
+                        </div>
+                    </div>
+
+                    <!-- Prevention Tips -->
+                    <div class="content-section">
+                        <h2>🛡️ Prevention Tips</h2>
+                        <p>Avoid common issues with these best practices:</p>
+                        
+                        <h3>Data Protection</h3>
+                        <ul>
+                            <li><strong>Regular Backups:</strong> Export your data weekly using Settings → Export Data</li>
+                            <li><strong>Cloud Storage:</strong> Save backup files to Google Drive, iCloud, or Dropbox</li>
+                            <li><strong>Multiple Formats:</strong> Export in both CSV and JSON formats</li>
+                            <li><strong>Test Imports:</strong> Periodically test that your backups work correctly</li>
+                        </ul>
+
+                        <h3>App Maintenance</h3>
+                        <ul>
+                            <li><strong>Keep Updated:</strong> Install app updates promptly for bug fixes and improvements</li>
+                            <li><strong>Restart Regularly:</strong> Restart the app occasionally to clear memory</li>
+                            <li><strong>Monitor Storage:</strong> Keep at least 100MB free space on your device</li>
+                            <li><strong>Stable Internet:</strong> Use reliable internet connections for data updates</li>
+                        </ul>
+
+                        <h3>Portfolio Management</h3>
+                        <ul>
+                            <li><strong>Double-Check Entries:</strong> Verify ticker symbols and purchase details</li>
+                            <li><strong>Reasonable Size:</strong> Keep portfolios under 50 items for optimal performance</li>
+                            <li><strong>Regular Reviews:</strong> Periodically review and clean up old or incorrect entries</li>
+                            <li><strong>Note-Taking:</strong> Use the notes field to document important details</li>
+                        </ul>
+                    </div>
+                </main>
+
+                <!-- Sidebar -->
+                <aside class="sidebar">
+                    <h3>Quick Navigation</h3>
+                    <ul>
+                        <li><a href="#quick-fixes">Quick Fixes</a></li>
+                        <li><a href="#performance">Performance Issues</a></li>
+                        <li><a href="#data-issues">Data Problems</a></li>
+                        <li><a href="#portfolio">Portfolio Issues</a></li>
+                        <li><a href="#network">Network Problems</a></li>
+                        <li><a href="#device-specific">Device Issues</a></li>
+                        <li><a href="#contact-support">Contact Support</a></li>
+                    </ul>
+
+                    <h3>Common Issues</h3>
+                    <ul>
+                        <li><a href="#app-crashes">App Crashes</a></li>
+                        <li><a href="#prices-not-updating">Prices Not Updating</a></li>
+                        <li><a href="#data-missing">Lost Portfolio Data</a></li>
+                        <li><a href="#cant-find-asset">Can't Find Assets</a></li>
+                        <li><a href="#slow-performance">Slow Performance</a></li>
+                        <li><a href="#battery-drain">Battery Issues</a></li>
+                    </ul>
+
+                    <h3>System Requirements</h3>
+                    <div class="contact-info">
+                        <p><strong>iOS:</strong> 13.0+</p>
+                        <p><strong>Android:</strong> 7.0+</p>
+                        <p><strong>Storage:</strong> 50MB</p>
+                        <p><strong>RAM:</strong> 2GB min</p>
+                        <p><strong>Internet:</strong> Required for prices</p>
+                    </div>
+
+                    <div class="contact-info">
+                        <h3>Still Need Help?</h3>
+                        <p>Can't find the solution you need?</p>
+                        <p><strong>Email:</strong> <a href="mailto:finvinityapp@gmail.com">finvinityapp@gmail.com</a></p>
+                        <p><strong>Response:</strong> Within 48 hours</p>
+                        <a href="contact.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Contact Support</a>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <div class="logo">📊</div>
+                        <span class="brand-name">Finvinity</span>
+                    </div>
+                    <p>The most comprehensive portfolio tracking app for modern investors.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="support.html">Help Center</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="troubleshooting.html">Troubleshooting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="licenses.html">Third-Party Licenses</a></li>
+                        <li><a href="refund.html">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="release-notes.html">Release Notes</a></li>
+                        <li><a href="roadmap.html">Roadmap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Finvinity. All rights reserved.</p>
+                <p>Developed by Tahsin Yiğit Gültekin</p>
+                <p>
+                    <a href="mailto:finvinityapp@gmail.com">finvinityapp@gmail.com</a> | 
+                    Istanbul, Turkey
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html> 

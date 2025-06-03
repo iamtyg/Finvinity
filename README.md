@@ -1,130 +1,184 @@
-# Finvinity - Personal Portfolio Tracker
+# Finvinity - Support & Privacy Website
 
-A comprehensive React Native mobile application for tracking investment portfolios with real-time market data, analytics, and financial news integration. Built with Expo and React Native, Finvinity provides professional-grade portfolio management tools in a beautiful, intuitive interface.
+A comprehensive support website for Finvinity, the personal portfolio tracking mobile app. This website serves as the official support URL and privacy policy for App Store and Google Play Store submissions.
 
-## 🚀 Key Features
+## 🌐 Live Website
 
-### Real-Time Portfolio Tracking
-- **Multi-Asset Support**: Stocks, Cryptocurrency, Foreign Currency, Gold, Mutual Funds
-- **Live Price Updates**: Real-time market data from multiple reliable API sources
-- **Intelligent Performance Analytics**: Comprehensive gain/loss calculations, ROI tracking, and portfolio diversification analysis
-- **Transaction Management**: Detailed buy/sell transaction tracking with complete history
+Visit the live website at: [https://iamtyg.github.io/Finvinity](https://iamtyg.github.io/Finvinity)
 
-### Market Data & Financial News Integration
-- **Real-Time Market Data**: Live pricing from Yahoo Finance, Alpha Vantage, and Finnhub APIs
-- **Curated Financial News**: Personalized news feed from Bloomberg, Reuters, WSJ, CNBC
-- **Portfolio-Specific Insights**: News filtered by your actual holdings for relevant updates
-- **Market Indicators**: Track major indices (S&P 500, NASDAQ, Dow Jones, VIX)
-- **Smart Caching**: Optimized data loading with offline support for seamless experience
+## 📱 About Finvinity
 
-### Modern User Experience
-- **Beautiful Interface**: Clean, modern UI with smooth animations and transitions
-- **Intuitive Navigation**: Easy-to-use portfolio management with drag-and-drop functionality
-- **Dark/Light Mode**: Complete theme support for comfortable viewing
-- **Responsive Design**: Optimized for phones and tablets with adaptive layouts
-- **Accessibility**: Full screen reader support and proper contrast ratios
+Finvinity is a comprehensive portfolio tracking application that allows users to:
 
-### Data & Privacy
-- **Local Storage**: All portfolio data stored securely on your device
-- **No Account Required**: Start tracking immediately without registration
-- **Privacy-First**: No personal data collection or external data sharing
-- **Data Export**: Complete portfolio export capabilities for backup
+- Track investments across multiple asset classes (stocks, crypto, currencies, mutual funds, gold)
+- View real-time market data and price information
+- Calculate portfolio performance and gains/losses
+- Access financial news relevant to their holdings
+- Export and manage portfolio data locally (privacy-first approach)
 
-## 📱 App Store Ready
+### Key Features
+- **Multi-Asset Support**: Stocks, cryptocurrencies, currencies, gold, mutual funds
+- **Real-Time Data**: Live market prices from trusted APIs (Yahoo Finance, Alpha Vantage, Finnhub)
+- **Privacy-First**: All data stored locally on device, no account required
+- **Performance Analytics**: Comprehensive portfolio analytics and insights
+- **Financial News**: Curated news relevant to your holdings
 
-This application has been thoroughly prepared for App Store and Google Play Store submission with:
-- Complete privacy policy and terms of service
-- Professional app icons and splash screens
-- Comprehensive error handling and crash prevention
-- Performance optimizations for smooth operation
-- Full compliance with store guidelines
+## 🖥️ Website Structure
 
-## 🛠️ Technical Architecture
+This support website includes all pages required for App Store compliance:
 
-### Technology Stack
-- **Framework**: React Native with Expo SDK 53
-- **Navigation**: React Navigation 6 with type-safe routing
-- **State Management**: React Context with useReducer for scalable state
-- **Data Persistence**: AsyncStorage with automatic backup
-- **Charts & Analytics**: Victory Native for beautiful data visualization
-- **Styling**: Custom TypeScript design system with consistent theming
+### Core Pages
+- **Homepage** (`index.html`) - App overview and download links
+- **Support Center** (`support.html`) - Comprehensive help documentation
+- **Privacy Policy** (`privacy.html`) - Complete privacy policy (GDPR, CCPA, COPPA compliant)
+- **Terms of Service** (`terms.html`) - Legal terms and conditions
+- **Contact** (`contact.html`) - Support contact information and form
 
-### API Integrations
-- **Yahoo Finance API**: Primary real-time stock data
-- **Alpha Vantage**: Backup market data and fundamentals
-- **Finnhub**: Additional market insights and news
-- **NewsAPI**: Curated financial news aggregation
-- **Smart Fallbacks**: Graceful degradation when APIs are unavailable
+### Additional Pages (Referenced in Navigation)
+- FAQ (`faq.html`)
+- About (`about.html`)
+- Release Notes (`release-notes.html`)
+- Troubleshooting (`troubleshooting.html`)
+- Third-Party Licenses (`licenses.html`)
+- Refund Policy (`refund.html`)
 
-## 📊 Performance & Reliability
+## 🎨 Design Features
 
-### Optimizations
-- **Intelligent Caching**: 10-minute news cache, 30-second price updates
-- **Memory Efficient**: Optimized state management and component lifecycle
-- **Network Resilience**: Multiple API fallbacks and offline capabilities
-- **Error Boundaries**: Comprehensive crash prevention and recovery
+- **Modern UI**: Clean, responsive design with Finvinity branding (#7B9B4C)
+- **Mobile-First**: Optimized for all device sizes
+- **Accessibility**: WCAG 2.1 compliant design
+- **Fast Loading**: Optimized assets and minimal dependencies
+- **SEO Optimized**: Proper meta tags and semantic HTML
 
-### App Metrics
-- **Bundle Size**: ~50MB optimized for mobile
-- **Cold Start**: <3 seconds on modern devices
-- **Memory Usage**: <100MB typical operation
-- **Battery Optimized**: Efficient background refresh policies
+## 🚀 Technology Stack
 
-## 📈 Installation & Development
+- **Frontend**: HTML5, CSS3, Vanilla JavaScript
+- **Styling**: CSS Grid, Flexbox, CSS Variables
+- **Fonts**: Inter (Google Fonts)
+- **Icons**: Emoji icons for universal compatibility
+- **Hosting**: GitHub Pages
+
+## 📋 App Store Compliance
+
+This website meets all requirements for:
+
+- ✅ **Apple App Store**: Support URL, Privacy Policy, Terms of Service
+- ✅ **Google Play Store**: Support website, Privacy Policy, contact information
+- ✅ **GDPR Compliance**: Comprehensive privacy policy for EU users
+- ✅ **CCPA Compliance**: California privacy requirements
+- ✅ **COPPA Compliance**: Children's privacy protection (ages 4+)
+
+## 🔧 Local Development
 
 ### Prerequisites
-- Node.js 18+ (required for Expo SDK 53)
-- Expo CLI or Expo Tools VS Code extension
-- iOS Simulator or Android Emulator
+- Web browser
+- Text editor
+- Local web server (optional, for testing forms)
 
-### Quick Start
-```bash
-# Install dependencies
-npm install
+### Setup Instructions
 
-# Start development server
-npm start
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/iamtyg/Finvinity.git
+   cd Finvinity
+   ```
 
-# Run on specific platform
-npm run ios
-npm run android
+2. **Open in Browser**
+   - Open `index.html` directly in your browser, or
+   - Use a local web server for testing:
+   ```bash
+   # Using Python
+   python -m http.server 8000
+   
+   # Using Node.js (if you have it)
+   npx serve
+   ```
+
+3. **View the Website**
+   - Direct file: `file:///path/to/Finvinity/index.html`
+   - Local server: `http://localhost:8000`
+
+### File Structure
+```
+Finvinity/
+├── index.html              # Homepage
+├── support.html            # Support center
+├── privacy.html            # Privacy policy
+├── terms.html              # Terms of service
+├── contact.html            # Contact page
+├── styles/
+│   └── main.css           # Main stylesheet
+├── scripts/
+│   └── main.js            # JavaScript functionality
+├── assets/
+│   └── (images, icons)    # Static assets
+└── README.md              # Project documentation
 ```
 
-### API Configuration (Optional)
-The app works perfectly with fallback data, but for live market data:
+## 🌍 Deployment
 
-1. Create `.env` file with your API keys
-2. Add keys for NewsAPI, Finnhub, Alpha Vantage (all have free tiers)
-3. Restart the development server
+### GitHub Pages (Current)
 
-## 🚀 Deployment
+1. **Enable GitHub Pages**
+   - Go to Repository Settings
+   - Navigate to "Pages" section
+   - Select "Deploy from a branch"
+   - Choose "main" branch and "/" root folder
+   - Save settings
 
-### App Store Submission Ready
-- [ ] App icons configured (1024x1024, adaptive)
-- [ ] Privacy policy integrated
-- [ ] Terms of service included
-- [ ] Bundle identifiers set
-- [ ] Performance optimized
-- [ ] All store guidelines compliance verified
+2. **Access Website**
+   - URL: `https://iamtyg.github.io/Finvinity`
+   - Usually takes 5-10 minutes to deploy
 
-### Build Commands
-```bash
-# iOS build
-expo build:ios
+### Alternative Deployment Options
 
-# Android build  
-expo build:android
-```
+- **Netlify**: Drag and drop the folder or connect to GitHub
+- **Vercel**: Import GitHub repository
+- **Firebase Hosting**: Use Firebase CLI
+- **Any Static Host**: Upload files to any web hosting service
 
-## 🔒 Privacy & Compliance
+## 📞 Contact Information
 
-- **COPPA Compliant**: No data collection from users under 13
-- **GDPR Ready**: Complete data control and export capabilities
-- **Store Guidelines**: Full iOS App Store and Google Play compliance
-- **Security**: Local-only data storage with no external transmission
+- **Email**: finvinityapp@gmail.com
+- **Developer**: Tahsin Yiğit Gültekin
+- **Location**: Istanbul, Turkey
+- **Response Time**: Within 48 hours
 
-## 📝 Last Updated: June 2025
+## 📄 Legal Information
 
-For support or questions, contact: finvinityapp@gmail.com
+- **Privacy Policy**: Compliant with GDPR, CCPA, COPPA, PIPEDA, KVKK
+- **Terms of Service**: Comprehensive legal terms for app usage
+- **Data Protection**: Privacy-first approach with local-only data storage
+- **Age Rating**: Suitable for ages 4+ (educational financial content)
 
-Developer: Tahsin Gültekin | Istanbul, Turkey 
+## 🔄 Updates and Maintenance
+
+### Regular Updates Include:
+- Security patches and improvements
+- Content updates based on user feedback
+- New feature documentation
+- Legal compliance updates
+- Performance optimizations
+
+### Contributing
+If you find any issues or have suggestions:
+1. Create an issue on GitHub
+2. Email finvinityapp@gmail.com
+3. Submit a pull request with improvements
+
+## 📈 Analytics and Monitoring
+
+- **Privacy-Compliant**: No personal data collection
+- **Anonymous Metrics**: Basic usage statistics only
+- **No Tracking**: No user tracking or identification
+- **Cookie-Free**: Minimal or no cookies used
+
+## ⚖️ License
+
+© 2025 Finvinity. All rights reserved.
+
+This website serves as official documentation and support for the Finvinity mobile application. Content may not be reproduced without permission.
+
+---
+
+**Note**: This website is specifically designed for App Store submissions and contains all required legal pages, support documentation, and contact information needed for mobile app approval and ongoing support. 
